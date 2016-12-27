@@ -1,0 +1,135 @@
+/* Variables */
+
+body {
+    --BN-blue: #4A90E2;
+    --title-font: Apple Chancery;    /* need backup fonts. how prevalent? */
+}
+
+/* General */
+
+.centered {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--title-font);
+    font-weight: normal;
+}
+.header-stripe {
+    margin-top: 0;
+    background-color: var(--BN-blue);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;            /* needs to resize */
+}
+
+/* Navigation */
+
+.nav-bar {
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
+    color: var(--BN-blue);
+}
+.nav-container {
+    max-width: 1100px;
+    margin: auto;
+}
+.nav-button {
+    box-sizing: border-box;
+    border-left: 1px solid black;
+}
+.nav-last {
+    border-right: 1px solid black;
+}
+.nav-active {
+    text-decoration: underline;
+}
+h2 a {
+    text-decoration: none;
+    color: var(--BN-blue);
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+
+.content-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+.center-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+h3 {
+    color: var(--BN-blue);
+    font-size: 1.75rem;
+}
+li {
+    padding-bottom: 7px;
+}
+p a,
+li a {
+    font-weight: bold;
+}
+.thin-bottom {
+    margin-bottom: 0;
+}
+.thin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dbl-center-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+figcaption {
+    padding-top: 0.5rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+img.h30 {
+    height: 30vh;
+}
+figure {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.donate-button {
+    background-color: var(--BN-blue);
+    border: 2px solid var(--BN-blue);
+    color: white;
+    border-radius: 5px;
+}
+.donate-button:hover {
+    background-color: white;
+    border: 2px solid var(--BN-blue);
+    color: var(--BN-blue);
+    text-decoration: none;
+}
