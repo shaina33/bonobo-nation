@@ -17,6 +17,7 @@ html,
 button,
 p,
 ol,
+.return-link,
 .pure-g,
 .pure-g [class *= "pure-u"] {
     font-family: 'Catamaran', Verdana, sans-serif;
@@ -35,13 +36,30 @@ ol,
     margin-top: 0;
     margin-bottom: 0;
 }
+.return-link {
+    padding-bottom: 5px;
+    display: none;
+}
+@media (max-width: 35.5em) {
+    .return-link {
+        display: inline-block;
+    }
+}
+@media (max-width: 48em) {
+    .return-link {
+        display: none;
+    }
+    .return-long {
+        display: inline-block;
+    }
+}
 
 /* Page Header */
 
 h1 {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
+    padding-top: 25px;
     padding-bottom: 0;
     line-height: calc(3.5rem + 2vw);
     font-family: Papyrus, Georgia, serif;
