@@ -92,6 +92,7 @@ h1 {
 }
 .nav-active {
     text-decoration: underline;
+    color: white;
 }
 h2 {
     margin-top: 0;
