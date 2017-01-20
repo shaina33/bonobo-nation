@@ -177,6 +177,18 @@ img.h20 {
     border-radius: 20px;
     max-height: 60vh;
 }
+@media (min-width: 31em) {
+    #img-bill {
+        float: right;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 30.9em) {
+    #img-bill {
+        width: 220px;
+        margin: 0 auto;
+    }
+
 .logo-card {
     position: relative;
     top: -3vh;
